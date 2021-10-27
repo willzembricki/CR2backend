@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  # skip_before_action :verify_aunthenticity_token 
     def create
         @user = User.find_by(username: session_params[:username])
       

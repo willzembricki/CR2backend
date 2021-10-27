@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
-    skip_before_action :verify_aunthenticity_token 
+    # protect_from_forgery with: :exception
+    # skip_before_action :verify_aunthenticity_token 
 
   helper_method :login!, :logged_in?, :current_user, :authorized_user, :logout!, :set_user
   
@@ -12,7 +13,7 @@ class ApplicationController < ActionController::Base
     end
 
     def current_user
-        @current_user || = User.find(session[:user_id]) if session[:user_id]
+        @current_user ||= User.find(session[:user_id]) if session[:user_id]
     end
 
     def authorized_user?
