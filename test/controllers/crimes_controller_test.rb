@@ -17,7 +17,7 @@ class CrimesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create crime" do
     assert_difference('Crime.count') do
-      post crimes_url, params: { crime: { american_indian: @crime.american_indian, asian_pop: @crime.asian_pop, black: @crime.black, crime_name: @crime.crime_name, hawaiian: @crime.hawaiian, pop: @crime.pop, unknown: @crime.unknown, white: @crime.white, year: @crime.year } }
+      post crimes_url, params: { crime: { american_indian: @crime.american_indian, asian_pop: @crime.asian_pop, black: @crime.black, crime_name: @crime.crime_name, hawaiian: @crime.hawaiian, pop: @crime.pop, state_id: @crime.state_id, unknown: @crime.unknown, white: @crime.white, year: @crime.year } }
     end
 
     assert_redirected_to crime_url(Crime.last)
@@ -34,7 +34,7 @@ class CrimesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update crime" do
-    patch crime_url(@crime), params: { crime: { american_indian: @crime.american_indian, asian_pop: @crime.asian_pop, black: @crime.black, crime_name: @crime.crime_name, hawaiian: @crime.hawaiian, pop: @crime.pop, unknown: @crime.unknown, white: @crime.white, year: @crime.year } }
+    patch crime_url(@crime), params: { crime: { american_indian: @crime.american_indian, asian_pop: @crime.asian_pop, black: @crime.black, crime_name: @crime.crime_name, hawaiian: @crime.hawaiian, pop: @crime.pop, state_id: @crime.state_id, unknown: @crime.unknown, white: @crime.white, year: @crime.year } }
     assert_redirected_to crime_url(@crime)
   end
 

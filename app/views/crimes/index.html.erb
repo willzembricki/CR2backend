@@ -5,6 +5,7 @@
 <table>
   <thead>
     <tr>
+      <th>State</th>
       <th>Crime name</th>
       <th>Pop</th>
       <th>Asian pop</th>
@@ -21,6 +22,7 @@
   <tbody>
     <% @crimes.each do |crime| %>
       <tr>
+        <td><%= crime.state_id %></td>
         <td><%= crime.crime_name %></td>
         <td><%= crime.pop %></td>
         <td><%= crime.asian_pop %></td>

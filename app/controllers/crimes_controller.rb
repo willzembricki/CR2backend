@@ -64,6 +64,6 @@ class CrimesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def crime_params
-      params.require(:crime).permit(:crime_name, :pop, :asian_pop, :hawaiian, :black, :american_indian, :unknown, :white, :year)
+      params.require(:crime).permit(:state_id, :crime_name, :pop, :asian_pop, :hawaiian, :black, :american_indian, :unknown, :white, :year)
     end
 end

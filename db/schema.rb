@@ -10,18 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_30_033709) do
-
-  create_table "arrests", force: :cascade do |t|
-    t.integer "state_id", null: false
-    t.integer "crime_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["crime_id"], name: "index_arrests_on_crime_id"
-    t.index ["state_id"], name: "index_arrests_on_state_id"
-  end
+ActiveRecord::Schema.define(version: 2021_10_30_194508) do
 
   create_table "crimes", force: :cascade do |t|
+    t.integer "state_id", null: false
     t.string "crime_name"
     t.integer "pop"
     t.integer "asian_pop"
@@ -33,6 +25,7 @@ ActiveRecord::Schema.define(version: 2021_10_30_033709) do
     t.integer "year"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["state_id"], name: "index_crimes_on_state_id"
   end
 
   create_table "states", force: :cascade do |t|
@@ -60,6 +53,5 @@ ActiveRecord::Schema.define(version: 2021_10_30_033709) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "arrests", "crimes"
-  add_foreign_key "arrests", "states"
+  add_foreign_key "crimes", "states"
 end

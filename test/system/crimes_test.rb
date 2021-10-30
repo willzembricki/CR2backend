@@ -20,6 +20,7 @@ class CrimesTest < ApplicationSystemTestCase
     fill_in "Crime name", with: @crime.crime_name
     fill_in "Hawaiian", with: @crime.hawaiian
     fill_in "Pop", with: @crime.pop
+    fill_in "State", with: @crime.state_id
     fill_in "Unknown", with: @crime.unknown
     fill_in "White", with: @crime.white
     fill_in "Year", with: @crime.year
@@ -39,6 +40,7 @@ class CrimesTest < ApplicationSystemTestCase
     fill_in "Crime name", with: @crime.crime_name
     fill_in "Hawaiian", with: @crime.hawaiian
     fill_in "Pop", with: @crime.pop
+    fill_in "State", with: @crime.state_id
     fill_in "Unknown", with: @crime.unknown
     fill_in "White", with: @crime.white
     fill_in "Year", with: @crime.year

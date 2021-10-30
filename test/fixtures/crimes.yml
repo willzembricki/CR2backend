@@ -1,6 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  state: one
   crime_name: MyString
   pop: 1
   asian_pop: 1
@@ -12,6 +13,7 @@ one:
   year: 1
 
 two:
+  state: two
   crime_name: MyString
   pop: 1
   asian_pop: 1

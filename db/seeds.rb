@@ -17,13 +17,14 @@ stateData = JSON.parse(File.read("/Users/willzembricki/Development/Crimereporter
         
             name: state[10],
             abbv: state[11],
-            pop:state[0],
-            asian_pop:state[4],
-            hawaiian:state[5],
-            black:state[2],
-            american_indian:state[3],
-            white:state[1],
-            # unknown: state[6]+state[7]+state[8]+state[9])
+            pop:state[0].to_i,
+            asian_pop:state[4].to_i,
+            hawaiian:state[5].to_i,
+            black:state[2].to_i,
+            american_indian:state[3].to_i,
+            white:state[1].to_i,
+            unknown: (state[6].to_i+state[7].to_i+state[8].to_i+state[9].to_i),
+            year: 2015
         )
     end
 
@@ -34,18 +35,21 @@ states.each.with_index do |state,si|
         # arrestsGender = JSON.parse(File.read("db/datafiles-gender/#{state}_#{crime}.json"))
         arrestsRace["results"].each do |arrest_item|
             totalPop = arrest_item["asian"] + arrest_item["native_hawaiian"] + arrest_item["black"] + arrest_item["american_indian"] + arrest_item["unknown"] + arrest_item["white"]
-           crime = OffenderRecord.create(state_id: si + 1, 
-                            crimeName: crime,
-                            totalPopO: totalPop,
-                            asianPopO: arrest_item["asian"],
-                            native_hawaiianO: arrest_item["native_hawaiian"],
-                            blackO:arrest_item["black"],
-                            american_indianO: arrest_item["american_indian"],
-                            unknownO:arrest_item["unknown"],
-                            whiteO:arrest_item["white"],
+           crimeRecord = Crime.create(  
+                            state_id: si + 1,
+                            crime_name: crime,
+                            pop: totalPop,
+                            asian_pop: arrest_item["asian"],
+                            hawaiian: arrest_item["native_hawaiian"],
+                            black:arrest_item["black"],
+                            american_indian: arrest_item["american_indian"],
+                            unknown:arrest_item["unknown"],
+                            white:arrest_item["white"],
                             year: arrest_item["data_year"].to_i
                             )
-        print(crime)
+                       
+
+        
         end
     end
 end
