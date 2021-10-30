@@ -1,0 +1,27 @@
+{
+  "results" : [ {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 9,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 126,
+    "csv_header" : null,
+    "data_year" : 1995
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 0,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 2,
+    "csv_header" : null,
+    "data_year" : 2017
+  } ],
+  "pagination" : {
+    "count" : 2,
+    "page" : 0,
+    "pages" : 1,
+    "per_page" : 0
+  }
+}

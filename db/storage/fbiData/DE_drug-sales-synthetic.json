@@ -1,0 +1,198 @@
+{
+  "results" : [ {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 0,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 3,
+    "csv_header" : null,
+    "data_year" : 1996
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 0,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 1,
+    "csv_header" : null,
+    "data_year" : 1999
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 0,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 5,
+    "csv_header" : null,
+    "data_year" : 2001
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 0,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 5,
+    "csv_header" : null,
+    "data_year" : 2002
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 2,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 6,
+    "csv_header" : null,
+    "data_year" : 2003
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 1,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 20,
+    "csv_header" : null,
+    "data_year" : 2004
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 10,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 15,
+    "csv_header" : null,
+    "data_year" : 2005
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 8,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 25,
+    "csv_header" : null,
+    "data_year" : 2006
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 23,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 43,
+    "csv_header" : null,
+    "data_year" : 2007
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 25,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 96,
+    "csv_header" : null,
+    "data_year" : 2008
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 33,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 92,
+    "csv_header" : null,
+    "data_year" : 2009
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 56,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 140,
+    "csv_header" : null,
+    "data_year" : 2010
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 53,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 118,
+    "csv_header" : null,
+    "data_year" : 2011
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 47,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 55,
+    "csv_header" : null,
+    "data_year" : 2012
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 28,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 23,
+    "csv_header" : null,
+    "data_year" : 2013
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 32,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 32,
+    "csv_header" : null,
+    "data_year" : 2014
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 24,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 20,
+    "csv_header" : null,
+    "data_year" : 2015
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 19,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 8,
+    "csv_header" : null,
+    "data_year" : 2016
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 16,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 8,
+    "csv_header" : null,
+    "data_year" : 2017
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 11,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 5,
+    "csv_header" : null,
+    "data_year" : 2018
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 21,
+    "american_indian" : 0,
+    "unknown" : 0,
+    "white" : 7,
+    "csv_header" : null,
+    "data_year" : 2019
+  } ],
+  "pagination" : {
+    "count" : 21,
+    "page" : 0,
+    "pages" : 1,
+    "per_page" : 0
+  }
+}

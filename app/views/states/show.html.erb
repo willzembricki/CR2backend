@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Abbv:</strong>
+  <%= @state.abbv %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @state.name %>
+</p>
+
+<p>
+  <strong>Pop:</strong>
+  <%= @state.pop %>
+</p>
+
+<p>
+  <strong>Asian pop:</strong>
+  <%= @state.asian_pop %>
+</p>
+
+<p>
+  <strong>Hawaiian:</strong>
+  <%= @state.hawaiian %>
+</p>
+
+<p>
+  <strong>Black:</strong>
+  <%= @state.black %>
+</p>
+
+<p>
+  <strong>American indian:</strong>
+  <%= @state.american_indian %>
+</p>
+
+<p>
+  <strong>Unknown:</strong>
+  <%= @state.unknown %>
+</p>
+
+<p>
+  <strong>White:</strong>
+  <%= @state.white %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @state.year %>
+</p>
+
+<%= link_to 'Edit', edit_state_path(@state) %> |
+<%= link_to 'Back', states_path %>

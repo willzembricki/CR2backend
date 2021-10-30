@@ -1,0 +1,67 @@
+<%= form_with(model: state) do |form| %>
+  <% if state.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(state.errors.count, "error") %> prohibited this state from being saved:</h2>
+
+      <ul>
+        <% state.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :abbv %>
+    <%= form.text_field :abbv %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :pop %>
+    <%= form.number_field :pop %>
+  </div>
+
+  <div class="field">
+    <%= form.label :asian_pop %>
+    <%= form.number_field :asian_pop %>
+  </div>
+
+  <div class="field">
+    <%= form.label :hawaiian %>
+    <%= form.number_field :hawaiian %>
+  </div>
+
+  <div class="field">
+    <%= form.label :black %>
+    <%= form.number_field :black %>
+  </div>
+
+  <div class="field">
+    <%= form.label :american_indian %>
+    <%= form.number_field :american_indian %>
+  </div>
+
+  <div class="field">
+    <%= form.label :unknown %>
+    <%= form.number_field :unknown %>
+  </div>
+
+  <div class="field">
+    <%= form.label :white %>
+    <%= form.number_field :white %>
+  </div>
+
+  <div class="field">
+    <%= form.label :year %>
+    <%= form.number_field :year %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

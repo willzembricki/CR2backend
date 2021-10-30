@@ -1,0 +1,234 @@
+{
+  "results" : [ {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 50,
+    "american_indian" : 13,
+    "unknown" : 0,
+    "white" : 877,
+    "csv_header" : null,
+    "data_year" : 1995
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 53,
+    "american_indian" : 13,
+    "unknown" : 0,
+    "white" : 1102,
+    "csv_header" : null,
+    "data_year" : 1996
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 52,
+    "american_indian" : 12,
+    "unknown" : 0,
+    "white" : 676,
+    "csv_header" : null,
+    "data_year" : 1997
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 24,
+    "american_indian" : 7,
+    "unknown" : 0,
+    "white" : 414,
+    "csv_header" : null,
+    "data_year" : 1998
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 32,
+    "american_indian" : 6,
+    "unknown" : 0,
+    "white" : 444,
+    "csv_header" : null,
+    "data_year" : 1999
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 39,
+    "american_indian" : 10,
+    "unknown" : 0,
+    "white" : 505,
+    "csv_header" : null,
+    "data_year" : 2000
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 38,
+    "american_indian" : 6,
+    "unknown" : 0,
+    "white" : 481,
+    "csv_header" : null,
+    "data_year" : 2001
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 69,
+    "american_indian" : 9,
+    "unknown" : 0,
+    "white" : 523,
+    "csv_header" : null,
+    "data_year" : 2002
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 56,
+    "american_indian" : 8,
+    "unknown" : 0,
+    "white" : 587,
+    "csv_header" : null,
+    "data_year" : 2003
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 69,
+    "american_indian" : 6,
+    "unknown" : 0,
+    "white" : 529,
+    "csv_header" : null,
+    "data_year" : 2004
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 102,
+    "american_indian" : 7,
+    "unknown" : 0,
+    "white" : 599,
+    "csv_header" : null,
+    "data_year" : 2005
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 144,
+    "american_indian" : 14,
+    "unknown" : 0,
+    "white" : 886,
+    "csv_header" : null,
+    "data_year" : 2006
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 224,
+    "american_indian" : 23,
+    "unknown" : 0,
+    "white" : 1204,
+    "csv_header" : null,
+    "data_year" : 2007
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 142,
+    "american_indian" : 13,
+    "unknown" : 0,
+    "white" : 1074,
+    "csv_header" : null,
+    "data_year" : 2008
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 116,
+    "american_indian" : 15,
+    "unknown" : 0,
+    "white" : 1112,
+    "csv_header" : null,
+    "data_year" : 2009
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 117,
+    "american_indian" : 9,
+    "unknown" : 0,
+    "white" : 986,
+    "csv_header" : null,
+    "data_year" : 2010
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 111,
+    "american_indian" : 8,
+    "unknown" : 0,
+    "white" : 937,
+    "csv_header" : null,
+    "data_year" : 2011
+  }, {
+    "asian" : 0,
+    "native_hawaiian" : 0,
+    "black" : 125,
+    "american_indian" : 16,
+    "unknown" : 0,
+    "white" : 1168,
+    "csv_header" : null,
+    "data_year" : 2012
+  }, {
+    "asian" : 24,
+    "native_hawaiian" : 0,
+    "black" : 100,
+    "american_indian" : 15,
+    "unknown" : 0,
+    "white" : 1236,
+    "csv_header" : null,
+    "data_year" : 2013
+  }, {
+    "asian" : 38,
+    "native_hawaiian" : 0,
+    "black" : 106,
+    "american_indian" : 16,
+    "unknown" : 0,
+    "white" : 1496,
+    "csv_header" : null,
+    "data_year" : 2014
+  }, {
+    "asian" : 39,
+    "native_hawaiian" : 0,
+    "black" : 104,
+    "american_indian" : 21,
+    "unknown" : 0,
+    "white" : 1807,
+    "csv_header" : null,
+    "data_year" : 2015
+  }, {
+    "asian" : 20,
+    "native_hawaiian" : 0,
+    "black" : 72,
+    "american_indian" : 29,
+    "unknown" : 0,
+    "white" : 1503,
+    "csv_header" : null,
+    "data_year" : 2016
+  }, {
+    "asian" : 35,
+    "native_hawaiian" : 0,
+    "black" : 108,
+    "american_indian" : 44,
+    "unknown" : 109,
+    "white" : 2109,
+    "csv_header" : null,
+    "data_year" : 2017
+  }, {
+    "asian" : 38,
+    "native_hawaiian" : 0,
+    "black" : 137,
+    "american_indian" : 36,
+    "unknown" : 122,
+    "white" : 1997,
+    "csv_header" : null,
+    "data_year" : 2018
+  }, {
+    "asian" : 39,
+    "native_hawaiian" : 5,
+    "black" : 108,
+    "american_indian" : 41,
+    "unknown" : 105,
+    "white" : 1934,
+    "csv_header" : null,
+    "data_year" : 2019
+  } ],
+  "pagination" : {
+    "count" : 25,
+    "page" : 0,
+    "pages" : 1,
+    "per_page" : 0
+  }
+}

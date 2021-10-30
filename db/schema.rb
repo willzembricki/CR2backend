@@ -10,7 +10,45 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_13_154235) do
+ActiveRecord::Schema.define(version: 2021_10_30_033709) do
+
+  create_table "arrests", force: :cascade do |t|
+    t.integer "state_id", null: false
+    t.integer "crime_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["crime_id"], name: "index_arrests_on_crime_id"
+    t.index ["state_id"], name: "index_arrests_on_state_id"
+  end
+
+  create_table "crimes", force: :cascade do |t|
+    t.string "crime_name"
+    t.integer "pop"
+    t.integer "asian_pop"
+    t.integer "hawaiian"
+    t.integer "black"
+    t.integer "american_indian"
+    t.integer "unknown"
+    t.integer "white"
+    t.integer "year"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "states", force: :cascade do |t|
+    t.string "abbv"
+    t.string "name"
+    t.integer "pop"
+    t.integer "asian_pop"
+    t.integer "hawaiian"
+    t.integer "black"
+    t.integer "american_indian"
+    t.integer "unknown"
+    t.integer "white"
+    t.integer "year"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "username"
@@ -22,4 +60,6 @@ ActiveRecord::Schema.define(version: 2021_10_13_154235) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "arrests", "crimes"
+  add_foreign_key "arrests", "states"
 end

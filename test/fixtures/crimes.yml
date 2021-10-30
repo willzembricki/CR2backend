@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  crime_name: MyString
+  pop: 1
+  asian_pop: 1
+  hawaiian: 1
+  black: 1
+  american_indian: 1
+  unknown: 1
+  white: 1
+  year: 1
+
+two:
+  crime_name: MyString
+  pop: 1
+  asian_pop: 1
+  hawaiian: 1
+  black: 1
+  american_indian: 1
+  unknown: 1
+  white: 1
+  year: 1

@@ -17,6 +17,6 @@ ROOT_DIR = "/Users/willzembricki/Development/Crimereporter2/CR2backend/db/storag
 
 for state in states:
     for crime in crimes:
-        url = f"https://api.usa.gov/crime/fbi/sapi/api/data/arrest/states/{state}/{crime}/sex/1995/2019?API_KEY=QNuv6qnMvVNndAojyPwzXOl4SHy3DWvWXTaw7PFM"
+        url = f"https://api.usa.gov/crime/fbi/sapi/api/data/arrest/states/{state}/{crime}/race/1995/2019?API_KEY=QNuv6qnMvVNndAojyPwzXOl4SHy3DWvWXTaw7PFM"
         with open(f"{ROOT_DIR}/{state}_{crime}.json", "w") as o:
             o.write(requests.get(url).text)

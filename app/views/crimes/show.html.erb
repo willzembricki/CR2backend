@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Crime name:</strong>
+  <%= @crime.crime_name %>
+</p>
+
+<p>
+  <strong>Pop:</strong>
+  <%= @crime.pop %>
+</p>
+
+<p>
+  <strong>Asian pop:</strong>
+  <%= @crime.asian_pop %>
+</p>
+
+<p>
+  <strong>Hawaiian:</strong>
+  <%= @crime.hawaiian %>
+</p>
+
+<p>
+  <strong>Black:</strong>
+  <%= @crime.black %>
+</p>
+
+<p>
+  <strong>American indian:</strong>
+  <%= @crime.american_indian %>
+</p>
+
+<p>
+  <strong>Unknown:</strong>
+  <%= @crime.unknown %>
+</p>
+
+<p>
+  <strong>White:</strong>
+  <%= @crime.white %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @crime.year %>
+</p>
+
+<%= link_to 'Edit', edit_crime_path(@crime) %> |
+<%= link_to 'Back', crimes_path %>
