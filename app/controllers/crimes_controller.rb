@@ -1,6 +1,10 @@
 class CrimesController < ApplicationController
   before_action :set_crime, only: %i[ show edit update destroy ]
 
+  # controller for line data look up
+  def  line_data
+    render json: Crime.find_line_data(params[:state_id],params[:crime_name])
+  end
   # GET /crimes or /crimes.json
   def index
     @crimes = Crime.all
