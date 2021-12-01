@@ -5,6 +5,9 @@ class CrimesController < ApplicationController
   def  line_data
     render json: Crime.find_line_data(params[:state_id],params[:crime_name])
   end
+  def find_me_crime 
+    render json: Crime.find_records(params[:state_id],params[:crime_name])
+  end
   # GET /crimes or /crimes.json
   def index
     @crimes = Crime.all

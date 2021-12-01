@@ -12,5 +12,9 @@ class Crime < ApplicationRecord
       # return ([crimes_by_year.to_h.symbolize_keys, label_hash])
   
   end
+#  getting demo graphic info for crime dmeographics 
+  def self.find_records(state_id, crime_name)
+    response = self.where(state_id: state_id, crime_name: crime_name,year: 2019 )
+  return(response)
 
 end

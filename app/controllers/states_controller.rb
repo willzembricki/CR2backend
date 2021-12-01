@@ -55,7 +55,10 @@ class StatesController < ApplicationController
       format.json { head :no_content }
     end
   end
-
+  #find state based on abbv given by the front end map 
+  def find_me_state
+    render json: State.find_by(abbv: params[:abbv])
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_state
