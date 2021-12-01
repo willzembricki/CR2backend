@@ -8,6 +8,7 @@ class Crime < ApplicationRecord
       label_hash= {state_name=> crime_name}
       # label_hash[state_name] = crime_name
       print([ label_hash, crimes_by_year.to_h.symbolize_keys])
+      return([ label_hash, crimes_by_year.to_h.symbolize_keys])
       # return ([crimes_by_year.to_h.symbolize_keys, label_hash])
   
   end
